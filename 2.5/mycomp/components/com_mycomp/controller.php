@@ -13,7 +13,7 @@ class MyCompController extends JController {
 		$doc=JFactory::getDocument();
 		$doc->addStyleSheet(JURI::root().'media/com_mycomp/css/frontend_create_task.css');
 		$doc->addScript(JURI::root().'media/com_mycomp/js/frontend_create_task.js');
-		echo "<div id="welcome">Welcome to Create</div>';
+		echo '<div id="welcome">Welcome to Create</div>';
 	}
 	
 	function delete(){
