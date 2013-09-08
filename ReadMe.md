@@ -1,0 +1,1 @@
+This Repository folder is dedicated to Joomla Step by Step Tutorials.
