@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<extension type="component" version="2.5.0" method="upgrade">
+	<name>com_mycomp</name>
+	<author>Pedram Soheil</author>
+	<version>1.0.10</version>
+	<description>COM_MYCOMP_DESC</description>
+	<media destination="com_mycomp" folder="media">
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<filename>index.html</filename>
+	</media>
+	<files folder="components/com_mycomp">
+		<filename>mycomp.php</filename>
+		<filename>index.html</filename>
+		<filename>controller.php</filename>
+	</files>
+	<languages folder="language/en-GB">
+		<language tag="en-GB">en-GB.com_mycomp.ini</language>
+	</languages>
+	<administration>
+		<files folder="administrator/components/com_mycomp">
+			<filename>mycomp.php</filename>
+			<filename>index.html</filename>
+			<filename>controller.php</filename>
+		</files>
+		<languages folder="administrator/language/en-GB">
+			<language tag="en-GB">en-GB.com_mycomp.ini</language>
+			<language tag="en-GB">en-GB.com_mycomp.sys.ini</language>
+		</languages>
+		<menu link="option=com_mycomp" img="../media/com_mycomp/images/com_mycomp-icon-16x16.png">COM_MYCOMP_MENU</menu>
+		<submenu>
+			<menu link="option=com_mycomp&amp;task=create" img="../media/com_mycomp/images/com_mycomp-create-icon-16x16.png">COM_MYCOMP_MENU_CREATE</menu>
+			<menu link="option=com_mycomp&amp;task=listtask" img="../media/com_mycomp/images/com_mycomp-list-icon-16x16.png">COM_MYCOMP_MENU_LISTTASK</menu>
+			<menu link="option=com_mycomp&amp;task=help" img="../media/com_mycomp/images/com_mycomp-help-icon-16x16.png">COM_MYCOMP_MENU_HELP</menu>
+		</submenu>
+	</administration>
+</extension>
