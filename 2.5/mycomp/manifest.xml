@@ -2,7 +2,7 @@
 <extension type="component" version="2.5.0" method="upgrade">
 	<name>com_mycomp</name>
 	<author>Pedram Soheil</author>
-	<version>1.0.11</version>
+	<version>1.0.12</version>
 	<description>COM_MYCOMP_DESC</description>
 	<media destination="com_mycomp" folder="media">
 		<folder>images</folder>
@@ -18,11 +18,29 @@
 	<languages folder="language/en-GB">
 		<language tag="en-GB">en-GB.com_mycomp.ini</language>
 	</languages>
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+		</sql>
+	</install>
+	<update>
+		<sql>
+			<file charset="utf8" driver="mysql">update.sql</file>
+		</sql>
+	</update>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.sql</file>
+		</sql>
+	</uninstall>
 	<administration>
 		<files folder="administrator/components/com_mycomp">
 			<filename>mycomp.php</filename>
 			<filename>index.html</filename>
 			<filename>controller.php</filename>
+			<filename>install.sql</filename>
+			<filename>update.sql</filename>
+			<filename>uninstall.sql</filename>
 		</files>
 		<languages folder="administrator/language/en-GB">
 			<language tag="en-GB">en-GB.com_mycomp.ini</language>
