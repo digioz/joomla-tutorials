@@ -2,7 +2,7 @@
 <extension type="component" version="2.5.0" method="upgrade">
 	<name>com_mycomp</name>
 	<author>Pedram Soheil</author>
-	<version>1.0.10</version>
+	<version>1.0.11</version>
 	<description>COM_MYCOMP_DESC</description>
 	<media destination="com_mycomp" folder="media">
 		<folder>images</folder>
