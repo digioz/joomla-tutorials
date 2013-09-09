@@ -1,9 +1,10 @@
-This Repository folder is dedicated to Joomla 2.5 Step by Step Tutorials. 
+*This Repository folder is dedicated to Joomla 2.5 Step by Step Tutorials* 
 
-
-Current Tutorial Sources:
-
+-Current Tutorial Sources:-
 
 Joomla Developers Documentation: http://docs.joomla.org/Developers
 
-Joomla 2.5 Custom Component Development: http://youtu.be/dVBnlL3ZQ4A
+==Joomla 2.5 Custom Component Development:==
+
+Channel: 			http://www.youtube.com/user/biswarupadhikari?feature=watch
+Last Video Watched: http://youtu.be/UeFuxQTjJSQ
