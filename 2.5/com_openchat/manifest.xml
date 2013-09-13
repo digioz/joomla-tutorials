@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<extension type="component" version="2.5.0" method="upgrade">
+	<name>com_openchat</name>
+	<author>Pedram Soheil</author>
+	<version>1.0.1</version>
+	<description>COM_OPENCHAT_DESC</description>
+	<media destination="com_openchat" folder="media">
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>images</folder>
+	</media>
+	<files folder="components/com_openchat">
+		<filename>openchat.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages folder="language/en-GB">
+		<language tag="en-GB">en-GB.com_openchat.ini</language>
+	</languages>
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+		</sql>
+	</install>
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.sql</file>
+		</sql>
+	</install>
+	<administration>
+		<files folder="administrator/components/com_openchat">
+			<filename>openchat.php</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+		</files>
+		<languages folder="administrator/language/en-GB">
+			<language tag="en-GB">en-GB.com_openchat.sys.ini</language>
+			<language tag="en-GB">en-GB.com_openchat.ini</language>
+		</languages>
+		<menu link="option=com_openchat" img="../media/com_openchat/images/chat-icon-16x16.png">COM_OPENCHAT</menu>
+		<submenu>
+			<menu link="option=com_openchat&amp;task=chat_history" img="../media/com_openchat/images/chat-history-icon-16x16.png">COM_OPENCHAT_HISTORY</menu>
+			<menu link="option=com_openchat&amp;task=blocked_users" img="../media/com_openchat/images/blockuser-icon-16x16.png">COM_OPENCHAT_BLOCKED_USERS</menu>
+		</submenu>
+	</administration>
+</extension>
