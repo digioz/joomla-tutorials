@@ -2,7 +2,7 @@
 <extension type="component" version="2.5.0" method="upgrade">
 	<name>com_openchat</name>
 	<author>Pedram Soheil</author>
-	<version>1.0.1</version>
+	<version>1.0.3</version>
 	<description>COM_OPENCHAT_DESC</description>
 	<media destination="com_openchat" folder="media">
 		<folder>css</folder>

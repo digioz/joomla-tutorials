@@ -6,6 +6,6 @@ Joomla Developers Documentation: http://docs.joomla.org/Developers
 
 ==Joomla 2.5 Custom Component Development:==
 
-Channel: 			http://www.youtube.com/user/biswarupadhikari?feature=watch
+Channel: http://www.youtube.com/user/biswarupadhikari/search?query=Ep+19
 
-Last Video Watched: http://youtu.be/UeFuxQTjJSQ
+Last Video Watched: http://www.youtube.com/watch?v=KKpIOG8by8s
